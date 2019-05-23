@@ -27,7 +27,7 @@ public class IndexController {
         return RestResponse.success("aaa");
     }
 
-    @GetMapping("/aaa")
+    @GetMapping("/userList")
     public RestResponse userList(){
 
         List<User> userList = userService.getUserList();
