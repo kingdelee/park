@@ -39,9 +39,9 @@ spring:
       #        break-after-acquire-failure:
       #        filters: stat,wall # 注意这个值和druid原生不一致，默认启动了stat,wall
       datasource:
-        master:
-          username: root
-          password: "Beijing2017"
+        primary:
+          username: chetubao
+          password: Beijing2017
           url: jdbc:mysql://rm-2ze89v2lo60myyqf9fo.mysql.rds.aliyuncs.com:3306/yfkj_park?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
           driver-class-name: com.mysql.cj.jdbc.Driver
           druid: #这里可以重写默认值
