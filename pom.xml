@@ -211,6 +211,8 @@
 
 
     <build>
+        <defaultGoal>compiler</defaultGoal>
+        <finalName>yfkj_park</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
