@@ -80,7 +80,7 @@
         <p6spy.version>3.8.2</p6spy.version>
 
         <!--        jackson      -->
-        <jackson.version>2.9.9</jackson.version>
+        <jackson.version>2.12.1</jackson.version>
 
 
     </properties>
